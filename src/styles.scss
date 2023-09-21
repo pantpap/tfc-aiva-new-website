@@ -4429,7 +4429,7 @@ Footer Area Css
 .footer-area {
     position: relative;
     overflow: hidden;
-    background: url(assets/images/footer-bg.png) no-repeat;
+    //background: url(assets/images/footer-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -4442,23 +4442,23 @@ Footer Area Css
         width: 100%;
         height: 100%;
         z-index: -1;
-        background-image: url(assets/images/footer-bg1.png);
+        //background-image: url(assets/images/footer-bg1.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         animation: imageChange 1s linear 1s infinite;
 
-        @keyframes imageChange {
-            0% {
-                opacity: 1;
-            }
-            75% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
+        //@keyframes imageChange {
+        //    0% {
+        //        opacity: 1;
+        //    }
+        //    75% {
+        //        opacity: 0;
+        //    }
+        //    100% {
+        //        opacity: 1;
+        //    }
+        //}
     }
     .newsletter-form {
         margin-bottom: 25px;
