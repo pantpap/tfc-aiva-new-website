@@ -21,29 +21,31 @@ import { FaqComponent } from './components/pages/faq/faq.component';
 import { TermsConditionsComponent } from './components/pages/terms-conditions/terms-conditions.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import {OurServicesComponent} from './components/pages/our-services/our-services.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
-    {path: 'home-two', component: HomeTwoComponent},
-    {path: 'home-three', component: HomeThreeComponent},
-    {path: 'about', component: AboutComponent},
-    {path: 'solutions', component: SolutionsComponent},
-    {path: 'solutions-details', component: SolutionsDetailsComponent},
-    {path: 'case-studies', component: CaseStudiesComponent},
-    {path: 'case-studies-details', component: CaseStudiesDetailsComponent},
-    {path: 'blog', component: BlogComponent},
-    {path: 'blog-details', component: BlogDetailsComponent},
-    {path: 'team', component: TeamComponent},
-    {path: 'pricing', component: PricingComponent},
-    {path: 'gallery', component: GalleryComponent},
-    {path: 'testimonials', component: TestimonialsComponent},
-    {path: 'sign-up', component: SignUpComponent},
-    {path: 'sign-in', component: SignInComponent},
-    {path: 'error', component: ErrorComponent},
-    {path: 'faq', component: FaqComponent},
-    {path: 'terms-condition', component: TermsConditionsComponent},
-    {path: 'privacy-policy', component: PrivacyPolicyComponent},
-    {path: 'contact', component: ContactComponent},
+    {path: 'our-services', component: OurServicesComponent},
+    // {path: 'home-two', component: HomeTwoComponent},
+    // {path: 'home-three', component: HomeThreeComponent},
+    // {path: 'about', component: AboutComponent},
+    // {path: 'solutions', component: SolutionsComponent},
+    // {path: 'solutions-details', component: SolutionsDetailsComponent},
+    // {path: 'case-studies', component: CaseStudiesComponent},
+    // {path: 'case-studies-details', component: CaseStudiesDetailsComponent},
+    // {path: 'blog', component: BlogComponent},
+    // {path: 'blog-details', component: BlogDetailsComponent},
+    // {path: 'team', component: TeamComponent},
+    // {path: 'pricing', component: PricingComponent},
+    // {path: 'gallery', component: GalleryComponent},
+    // {path: 'testimonials', component: TestimonialsComponent},
+    // {path: 'sign-up', component: SignUpComponent},
+    // {path: 'sign-in', component: SignInComponent},
+    // {path: 'error', component: ErrorComponent},
+    // {path: 'faq', component: FaqComponent},
+    // {path: 'terms-condition', component: TermsConditionsComponent},
+    // {path: 'privacy-policy', component: PrivacyPolicyComponent},
+    // {path: 'contact', component: ContactComponent},
     // Here add new pages component
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list

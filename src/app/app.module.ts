@@ -32,6 +32,7 @@ import { FaqComponent } from './components/pages/faq/faq.component';
 import { TermsConditionsComponent } from './components/pages/terms-conditions/terms-conditions.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { OurServicesComponent } from './components/pages/our-services/our-services.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { ContactComponent } from './components/pages/contact/contact.component';
     FaqComponent,
     TermsConditionsComponent,
     PrivacyPolicyComponent,
-    ContactComponent
+    ContactComponent,
+    OurServicesComponent,
   ],
   imports: [
     BrowserModule,
