@@ -22,10 +22,12 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import {OurServicesComponent} from './components/pages/our-services/our-services.component';
+import {ClusteringComponent} from './components/pages/clustering/clustering.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
     {path: 'our-services', component: OurServicesComponent},
+    {path: 'services-clustering', component: ClusteringComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
