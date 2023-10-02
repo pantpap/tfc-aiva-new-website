@@ -43,6 +43,7 @@ import { OutreachComponent } from './components/pages/services/outreach/outreach
 import { ProposalDevelopmentComponent } from './components/pages/services/proposal-development/proposal-development.component';
 import { ReportsComponent } from './components/pages/reports/reports.component';
 import { OurBlogComponent } from './components/pages/our-blog/our-blog.component';
+import { PodcastsComponent } from './components/pages/podcasts/podcasts.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { OurBlogComponent } from './components/pages/our-blog/our-blog.component
     OutreachComponent,
     ProposalDevelopmentComponent,
     ReportsComponent,
-    OurBlogComponent
+    OurBlogComponent,
+    PodcastsComponent
   ],
   imports: [
     BrowserModule,

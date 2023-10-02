@@ -37,6 +37,7 @@ import {
 } from './components/pages/services/proposal-development/proposal-development.component';
 import {ReportsComponent} from './components/pages/reports/reports.component';
 import {OurBlogComponent} from "./components/pages/our-blog/our-blog.component";
+import {PodcastsComponent} from "./components/pages/podcasts/podcasts.component";
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -50,6 +51,7 @@ const routes: Routes = [
     {path: 'services-proposal-development', component: ProposalDevelopmentComponent},
     {path: 'reports', component: ReportsComponent},
     {path: 'blog', component: OurBlogComponent},
+    {path: 'podcasts', component: PodcastsComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
