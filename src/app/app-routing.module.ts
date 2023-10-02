@@ -23,11 +23,15 @@ import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privac
 import { ContactComponent } from './components/pages/contact/contact.component';
 import {OurServicesComponent} from './components/pages/our-services/our-services.component';
 import {ClusteringComponent} from './components/pages/clustering/clustering.component';
+import {
+    BetterPracticeGuidesComponent
+} from './components/pages/better-practice-guides/better-practice-guides.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
     {path: 'our-services', component: OurServicesComponent},
     {path: 'services-clustering', component: ClusteringComponent},
+    {path: 'services-better-practice-guides', component: BetterPracticeGuidesComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
