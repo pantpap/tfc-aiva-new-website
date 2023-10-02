@@ -39,6 +39,7 @@ import { ClusteringComponent } from './components/pages/services/clustering/clus
 import { ConceptualArchitectureComponent } from './components/pages/services/conceptual-architecture/conceptual-architecture.component';
 import { ProjectManagementComponent } from './components/pages/services/project-management/project-management.component';
 import { StandardizationComponent } from './components/pages/services/standardization/standardization.component';
+import { OutreachComponent } from './components/pages/services/outreach/outreach.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { StandardizationComponent } from './components/pages/services/standardiz
     ClusteringComponent,
     ConceptualArchitectureComponent,
     ProjectManagementComponent,
-    StandardizationComponent
+    StandardizationComponent,
+    OutreachComponent
   ],
   imports: [
     BrowserModule,
