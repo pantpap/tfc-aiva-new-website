@@ -1,0 +1,18 @@
+.support-text{
+    //margin: -8px 0 0 60px;
+    margin: 0 0 60px;
+    text-align: start;
+    max-width: 100%;
+}
+
+.single-blog:hover h3{
+    color: var(--headingColor);
+}
+
+.home-blog-area .single-blog:hover p {
+    color: var(--headingColor);
+}
+
+.home-blog-area .single-blog::after{
+    background: var(--whiteColor);
+}
