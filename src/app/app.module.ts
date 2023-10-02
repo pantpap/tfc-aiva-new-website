@@ -40,6 +40,7 @@ import { ConceptualArchitectureComponent } from './components/pages/services/con
 import { ProjectManagementComponent } from './components/pages/services/project-management/project-management.component';
 import { StandardizationComponent } from './components/pages/services/standardization/standardization.component';
 import { OutreachComponent } from './components/pages/services/outreach/outreach.component';
+import { ProposalDevelopmentComponent } from './components/pages/services/proposal-development/proposal-development.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { OutreachComponent } from './components/pages/services/outreach/outreach
     ConceptualArchitectureComponent,
     ProjectManagementComponent,
     StandardizationComponent,
-    OutreachComponent
+    OutreachComponent,
+    ProposalDevelopmentComponent
   ],
   imports: [
     BrowserModule,

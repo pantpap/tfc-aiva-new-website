@@ -32,6 +32,9 @@ import {
 import {ProjectManagementComponent} from './components/pages/services/project-management/project-management.component';
 import {StandardizationComponent} from './components/pages/services/standardization/standardization.component';
 import {OutreachComponent} from './components/pages/services/outreach/outreach.component';
+import {
+    ProposalDevelopmentComponent
+} from './components/pages/services/proposal-development/proposal-development.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -42,6 +45,7 @@ const routes: Routes = [
     {path: 'services-project-management', component: ProjectManagementComponent},
     {path: 'services-standardization', component: StandardizationComponent},
     {path: 'services-outreach', component: OutreachComponent},
+    {path: 'services-proposal-development', component: ProposalDevelopmentComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
