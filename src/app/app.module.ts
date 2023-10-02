@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AccordionModule } from "ngx-accordion";
+import { AccordionModule } from 'ngx-accordion';
 import { TabsModule } from 'ngx-tabset';
 import { StickyNavModule } from 'ng2-sticky-nav';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
@@ -33,6 +33,15 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { OurServicesComponent } from './components/pages/our-services/our-services.component';
+import { BetterPracticeGuidesComponent } from './components/pages/services/better-practice-guides/better-practice-guides.component';
+import { ServicesListComponent } from './components/common/services-list/services-list.component';
+import { ClusteringComponent } from './components/pages/services/clustering/clustering.component';
+import { ConceptualArchitectureComponent } from './components/pages/services/conceptual-architecture/conceptual-architecture.component';
+import { ProjectManagementComponent } from './components/pages/services/project-management/project-management.component';
+import { StandardizationComponent } from './components/pages/services/standardization/standardization.component';
+import { OutreachComponent } from './components/pages/services/outreach/outreach.component';
+import { ProposalDevelopmentComponent } from './components/pages/services/proposal-development/proposal-development.component';
+import { ReportsComponent } from './components/pages/reports/reports.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +70,15 @@ import { OurServicesComponent } from './components/pages/our-services/our-servic
     PrivacyPolicyComponent,
     ContactComponent,
     OurServicesComponent,
+    BetterPracticeGuidesComponent,
+    ServicesListComponent,
+    ClusteringComponent,
+    ConceptualArchitectureComponent,
+    ProjectManagementComponent,
+    StandardizationComponent,
+    OutreachComponent,
+    ProposalDevelopmentComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,

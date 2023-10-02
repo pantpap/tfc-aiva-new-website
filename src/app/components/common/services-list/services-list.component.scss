@@ -1,0 +1,10 @@
+.services-list {
+    list-style: none;
+    padding: 0;
+    .services-list-item {
+        cursor: pointer;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(122, 126, 154, 0.25);
+        padding: 10px 0
+    }
+}

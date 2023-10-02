@@ -22,10 +22,32 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import {OurServicesComponent} from './components/pages/our-services/our-services.component';
+import {ClusteringComponent} from './components/pages/services/clustering/clustering.component';
+import {
+    BetterPracticeGuidesComponent
+} from './components/pages/services/better-practice-guides/better-practice-guides.component';
+import {
+    ConceptualArchitectureComponent
+} from './components/pages/services/conceptual-architecture/conceptual-architecture.component';
+import {ProjectManagementComponent} from './components/pages/services/project-management/project-management.component';
+import {StandardizationComponent} from './components/pages/services/standardization/standardization.component';
+import {OutreachComponent} from './components/pages/services/outreach/outreach.component';
+import {
+    ProposalDevelopmentComponent
+} from './components/pages/services/proposal-development/proposal-development.component';
+import {ReportsComponent} from './components/pages/reports/reports.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
     {path: 'our-services', component: OurServicesComponent},
+    {path: 'services-clustering', component: ClusteringComponent},
+    {path: 'services-better-practice-guides', component: BetterPracticeGuidesComponent},
+    {path: 'services-conceptual-architecture', component: ConceptualArchitectureComponent},
+    {path: 'services-project-management', component: ProjectManagementComponent},
+    {path: 'services-standardization', component: StandardizationComponent},
+    {path: 'services-outreach', component: OutreachComponent},
+    {path: 'services-proposal-development', component: ProposalDevelopmentComponent},
+    {path: 'reports', component: ReportsComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
