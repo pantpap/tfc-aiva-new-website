@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AccordionModule } from "ngx-accordion";
+import { AccordionModule } from 'ngx-accordion';
 import { TabsModule } from 'ngx-tabset';
 import { StickyNavModule } from 'ng2-sticky-nav';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
@@ -33,6 +33,9 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { OurServicesComponent } from './components/pages/our-services/our-services.component';
+import { BetterPracticeGuidesComponent } from './components/pages/better-practice-guides/better-practice-guides.component';
+import { ServicesListComponent } from './components/common/services-list/services-list.component';
+import { ClusteringComponent } from './components/pages/clustering/clustering.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +64,9 @@ import { OurServicesComponent } from './components/pages/our-services/our-servic
     PrivacyPolicyComponent,
     ContactComponent,
     OurServicesComponent,
+    BetterPracticeGuidesComponent,
+    ServicesListComponent,
+    ClusteringComponent
   ],
   imports: [
     BrowserModule,
