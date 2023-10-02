@@ -42,6 +42,7 @@ import { StandardizationComponent } from './components/pages/services/standardiz
 import { OutreachComponent } from './components/pages/services/outreach/outreach.component';
 import { ProposalDevelopmentComponent } from './components/pages/services/proposal-development/proposal-development.component';
 import { ReportsComponent } from './components/pages/reports/reports.component';
+import { OurBlogComponent } from './components/pages/our-blog/our-blog.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { ReportsComponent } from './components/pages/reports/reports.component';
     StandardizationComponent,
     OutreachComponent,
     ProposalDevelopmentComponent,
-    ReportsComponent
+    ReportsComponent,
+    OurBlogComponent
   ],
   imports: [
     BrowserModule,
