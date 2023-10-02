@@ -35,6 +35,7 @@ import {OutreachComponent} from './components/pages/services/outreach/outreach.c
 import {
     ProposalDevelopmentComponent
 } from './components/pages/services/proposal-development/proposal-development.component';
+import {ReportsComponent} from './components/pages/reports/reports.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -46,6 +47,7 @@ const routes: Routes = [
     {path: 'services-standardization', component: StandardizationComponent},
     {path: 'services-outreach', component: OutreachComponent},
     {path: 'services-proposal-development', component: ProposalDevelopmentComponent},
+    {path: 'reports', component: ReportsComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},

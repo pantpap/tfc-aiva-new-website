@@ -41,6 +41,7 @@ import { ProjectManagementComponent } from './components/pages/services/project-
 import { StandardizationComponent } from './components/pages/services/standardization/standardization.component';
 import { OutreachComponent } from './components/pages/services/outreach/outreach.component';
 import { ProposalDevelopmentComponent } from './components/pages/services/proposal-development/proposal-development.component';
+import { ReportsComponent } from './components/pages/reports/reports.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +77,8 @@ import { ProposalDevelopmentComponent } from './components/pages/services/propos
     ProjectManagementComponent,
     StandardizationComponent,
     OutreachComponent,
-    ProposalDevelopmentComponent
+    ProposalDevelopmentComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,
