@@ -22,16 +22,22 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import {OurServicesComponent} from './components/pages/our-services/our-services.component';
-import {ClusteringComponent} from './components/pages/clustering/clustering.component';
+import {ClusteringComponent} from './components/pages/services/clustering/clustering.component';
 import {
     BetterPracticeGuidesComponent
-} from './components/pages/better-practice-guides/better-practice-guides.component';
+} from './components/pages/services/better-practice-guides/better-practice-guides.component';
+import {
+    ConceptualArchitectureComponent
+} from './components/pages/services/conceptual-architecture/conceptual-architecture.component';
+import {ProjectManagementComponent} from './components/pages/services/project-management/project-management.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
     {path: 'our-services', component: OurServicesComponent},
     {path: 'services-clustering', component: ClusteringComponent},
     {path: 'services-better-practice-guides', component: BetterPracticeGuidesComponent},
+    {path: 'services-conceptual-architecture', component: ConceptualArchitectureComponent},
+    {path: 'services-project-management', component: ProjectManagementComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},

@@ -33,9 +33,11 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { OurServicesComponent } from './components/pages/our-services/our-services.component';
-import { BetterPracticeGuidesComponent } from './components/pages/better-practice-guides/better-practice-guides.component';
+import { BetterPracticeGuidesComponent } from './components/pages/services/better-practice-guides/better-practice-guides.component';
 import { ServicesListComponent } from './components/common/services-list/services-list.component';
-import { ClusteringComponent } from './components/pages/clustering/clustering.component';
+import { ClusteringComponent } from './components/pages/services/clustering/clustering.component';
+import { ConceptualArchitectureComponent } from './components/pages/services/conceptual-architecture/conceptual-architecture.component';
+import { ProjectManagementComponent } from './components/pages/services/project-management/project-management.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +68,9 @@ import { ClusteringComponent } from './components/pages/clustering/clustering.co
     OurServicesComponent,
     BetterPracticeGuidesComponent,
     ServicesListComponent,
-    ClusteringComponent
+    ClusteringComponent,
+    ConceptualArchitectureComponent,
+    ProjectManagementComponent
   ],
   imports: [
     BrowserModule,
