@@ -30,6 +30,7 @@ import {
     ConceptualArchitectureComponent
 } from './components/pages/services/conceptual-architecture/conceptual-architecture.component';
 import {ProjectManagementComponent} from './components/pages/services/project-management/project-management.component';
+import {StandardizationComponent} from './components/pages/services/standardization/standardization.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -38,6 +39,7 @@ const routes: Routes = [
     {path: 'services-better-practice-guides', component: BetterPracticeGuidesComponent},
     {path: 'services-conceptual-architecture', component: ConceptualArchitectureComponent},
     {path: 'services-project-management', component: ProjectManagementComponent},
+    {path: 'services-standardization', component: StandardizationComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},

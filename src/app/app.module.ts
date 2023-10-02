@@ -38,6 +38,7 @@ import { ServicesListComponent } from './components/common/services-list/service
 import { ClusteringComponent } from './components/pages/services/clustering/clustering.component';
 import { ConceptualArchitectureComponent } from './components/pages/services/conceptual-architecture/conceptual-architecture.component';
 import { ProjectManagementComponent } from './components/pages/services/project-management/project-management.component';
+import { StandardizationComponent } from './components/pages/services/standardization/standardization.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { ProjectManagementComponent } from './components/pages/services/project-
     ServicesListComponent,
     ClusteringComponent,
     ConceptualArchitectureComponent,
-    ProjectManagementComponent
+    ProjectManagementComponent,
+    StandardizationComponent
   ],
   imports: [
     BrowserModule,
