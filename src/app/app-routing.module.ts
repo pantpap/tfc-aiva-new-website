@@ -39,7 +39,8 @@ import {ReportsComponent} from './components/pages/reports/reports.component';
 import {OurBlogComponent} from './components/pages/our-blog/our-blog.component';
 import {PodcastsComponent} from './components/pages/podcasts/podcasts.component';
 import {NewsComponent} from './components/pages/news/news.component';
-import {ArchivesComponent} from "./components/pages/archives/archives.component";
+import {ArchivesComponent} from './components/pages/archives/archives.component';
+import {ProjectsComponent} from './components/pages/projects/projects.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -57,6 +58,7 @@ const routes: Routes = [
     {path: 'news', component: NewsComponent},
     {path: 'archives', component: ArchivesComponent},
     {path: 'privacy-policy', component: PrivacyPolicyComponent},
+    {path: 'projects', component: ProjectsComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},

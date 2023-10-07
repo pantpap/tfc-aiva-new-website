@@ -46,6 +46,7 @@ import { OurBlogComponent } from './components/pages/our-blog/our-blog.component
 import { PodcastsComponent } from './components/pages/podcasts/podcasts.component';
 import { NewsComponent } from './components/pages/news/news.component';
 import { ArchivesComponent } from './components/pages/archives/archives.component';
+import { ProjectsComponent } from './components/pages/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -86,7 +87,8 @@ import { ArchivesComponent } from './components/pages/archives/archives.componen
     OurBlogComponent,
     PodcastsComponent,
     NewsComponent,
-    ArchivesComponent
+    ArchivesComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
