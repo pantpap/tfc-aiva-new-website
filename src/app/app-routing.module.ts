@@ -56,6 +56,7 @@ const routes: Routes = [
     {path: 'podcasts', component: PodcastsComponent},
     {path: 'news', component: NewsComponent},
     {path: 'archives', component: ArchivesComponent},
+    {path: 'privacy-policy', component: PrivacyPolicyComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
@@ -74,7 +75,6 @@ const routes: Routes = [
     // {path: 'error', component: ErrorComponent},
     // {path: 'faq', component: FaqComponent},
     // {path: 'terms-condition', component: TermsConditionsComponent},
-    // {path: 'privacy-policy', component: PrivacyPolicyComponent},
     // {path: 'contact', component: ContactComponent},
     // Here add new pages component
 
