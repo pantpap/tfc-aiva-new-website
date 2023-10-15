@@ -16,3 +16,7 @@
 .home-blog-area .single-blog::after{
     background: var(--whiteColor);
 }
+
+.home-blog-area .single-blog:hover ul li {
+    color: var(--headingColor);
+}
