@@ -63,6 +63,7 @@ const routes: Routes = [
     {path: 'privacy-policy', component: PrivacyPolicyComponent},
     {path: 'projects', component: ProjectsComponent},
     {path: 'partners', component: PartnersComponent},
+    {path: 'contact', component: ContactComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
@@ -81,7 +82,6 @@ const routes: Routes = [
     // {path: 'error', component: ErrorComponent},
     // {path: 'faq', component: FaqComponent},
     // {path: 'terms-condition', component: TermsConditionsComponent},
-    // {path: 'contact', component: ContactComponent},
     // Here add new pages component
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
