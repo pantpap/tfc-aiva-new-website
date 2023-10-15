@@ -42,6 +42,7 @@ import {NewsComponent} from './components/pages/news/news.component';
 import {ArchivesComponent} from './components/pages/archives/archives.component';
 import {ProjectsComponent} from './components/pages/projects/projects.component';
 import {ArchiveDetailsComponent} from "./components/pages/archives/archive-details/archive-details.component";
+import {PartnersComponent} from './components/pages/partners/partners.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -61,6 +62,7 @@ const routes: Routes = [
     {path: 'archives/:projectName', component: ArchiveDetailsComponent, data: {projects: false}},
     {path: 'privacy-policy', component: PrivacyPolicyComponent},
     {path: 'projects', component: ProjectsComponent},
+    {path: 'partners', component: PartnersComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},

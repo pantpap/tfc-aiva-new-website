@@ -1,0 +1,27 @@
+.blog-img{
+    text-align: center;
+    padding-top: 15px;
+    a{
+        img{
+            width: 200px !important;
+            height: auto;
+        }
+    }
+}
+
+.home-blog-area .single-blog:hover p{
+    color: var(--bodyColor);
+
+}
+
+.home-blog-area .single-blog:hover h3{
+    color: var(--headingColor);
+}
+
+.home-blog-area .single-blog::after{
+    background: none;
+}
+
+.pointer{
+    cursor: pointer;
+}
