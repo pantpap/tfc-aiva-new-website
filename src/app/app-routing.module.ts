@@ -46,6 +46,7 @@ import {PartnersComponent} from './components/pages/partners/partners.component'
 import {ProjectDetailsComponent} from "./components/pages/projects/project-details/project-details.component";
 import {SponsorshipComponent} from "./components/pages/sponsorship/sponsorship.component";
 import {AlliancesComponent} from "./components/pages/alliances/alliances.component";
+import {CareersComponent} from "./components/pages/careers/careers.component";
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -70,6 +71,7 @@ const routes: Routes = [
     {path: 'contact', component: ContactComponent},
     {path: 'sponsorship', component: SponsorshipComponent},
     {path: 'alliances', component: AlliancesComponent},
+    {path: 'careers', component: CareersComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},
