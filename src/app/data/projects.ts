@@ -107,5 +107,48 @@ export const projects = [
         </p>
 
     `
-    }
+    },
+    {
+        name: 'b-prepared',
+        title: `B-PREPARED – Building PREPAREDness with Collaborative Knowledge Platform, Gamification and
+                Serious Game in Virtual Reality. `,
+        date: '',
+        description: `
+         <p>
+            Launched on October 1st, 2023, the Horizon Europe project, B-PREPARED, aims to deliver a
+            cost-effective solution for building a culture of disaster preparedness with a multi-actor
+            approach in realistic historical scenarios. B-PREPARED will build on a freely accessible
+            massive collaborative knowledge base and data hub to demonstrate its usefulness via three
+            demonstrator applications:  a cooperative multiplayer Virtual Reality serious game,
+            simulating real disaster scenarios for the safest near-real experience; an interactive gamified
+            mobile app with age-appropriate content and enhanced accessibility to people with specific
+            functional needs for the widest possible reach; as well as an Learning Management System
+            to effectively and comparably measure preparedness levels achieved by Virtual Reality
+            and/or mobile users on a unified scale.
+        </p>
+        <p>
+            The development of the B-PREPARED solution enables players can apply different roles to
+            solve puzzle tasks in an immersive experience. Teamplay, collaboration and communication
+            are keys to survival, strengthening the culture of mutual assistance and cooperation in
+            danger.  Player behaviour and gameplay logged in a privacy-preserving way helps collect data
+            on in-game behaviour which serves assessment of preparedness but will also be shared with
+            other synergic research in the same field.
+        </p>
+        <p>
+            A large-scale virtual reality hackathon series will demonstrate B-PREPARED outcome
+            features. Notably, it is the intention of the Consortium to make the open beta publicly
+            available as a giveaway and to invite stakeholders via direct outreach.  Thus, after closing
+            beta, the game will be available in a non-profit freemium model where in-game purchases
+            are replaced by in-game donations for relief organizations, with a small percentage kept for
+            maintenance and further development.
+        </p>
+        <p>
+           B-PREPARED brings together an experienced, multi-disciplinary team of specialists, to work
+            together for the delivery of the cost-effective solution. <strong>TFC</strong> will work across most work
+            packages building on from the success of the Better Practice Guide initiative, clustering and
+            project management capability and leading with the policy maker and educational institute
+            engagement activities.
+        </p>
+    `
+    },
 ];
