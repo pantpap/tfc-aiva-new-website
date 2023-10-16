@@ -51,6 +51,7 @@ import { ArchiveDetailsComponent } from './components/pages/archives/archive-det
 import { PartnersComponent } from './components/pages/partners/partners.component';
 import { ProjectDetailsComponent } from './components/pages/projects/project-details/project-details.component';
 import { SponsorshipComponent } from './components/pages/sponsorship/sponsorship.component';
+import { AlliancesComponent } from './components/alliances/alliances.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { SponsorshipComponent } from './components/pages/sponsorship/sponsorship
     ArchiveDetailsComponent,
     PartnersComponent,
     ProjectDetailsComponent,
-    SponsorshipComponent
+    SponsorshipComponent,
+    AlliancesComponent
   ],
   imports: [
     BrowserModule,
