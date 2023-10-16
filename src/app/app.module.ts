@@ -49,6 +49,7 @@ import { ArchivesComponent } from './components/pages/archives/archives.componen
 import { ProjectsComponent } from './components/pages/projects/projects.component';
 import { ArchiveDetailsComponent } from './components/pages/archives/archive-details/archive-details.component';
 import { PartnersComponent } from './components/pages/partners/partners.component';
+import { ProjectDetailsComponent } from './components/pages/projects/project-details/project-details.component';
 
 @NgModule({
   declarations: [
@@ -92,7 +93,8 @@ import { PartnersComponent } from './components/pages/partners/partners.componen
     ArchivesComponent,
     ProjectsComponent,
     ArchiveDetailsComponent,
-    PartnersComponent
+    PartnersComponent,
+    ProjectDetailsComponent
   ],
   imports: [
     BrowserModule,

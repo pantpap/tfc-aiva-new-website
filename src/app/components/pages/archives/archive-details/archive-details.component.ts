@@ -13,9 +13,8 @@ export class ArchiveDetailsComponent implements OnInit {
     constructor(private activatedRoute: ActivatedRoute) { }
 
     ngOnInit(): void {
-        this.activatedRoute.params.subscribe(projectName => {
-            console.log(projectName.projectName);
-            this.details = this.data.find(item => (item.name === projectName.projectName));
+        this.activatedRoute.params.subscribe(response => {
+            this.details = this.data.find(item => (item.name === response.archiveProjectName));
         });
     }
 }
