@@ -52,5 +52,60 @@ export const projects = [
             FAITH supports patients and healthcare providers in their post-cancer battle stage of life.
         </p>
     `
+    },
+    {
+        name: 'peers',
+        title: `PEERS - Delivering transformational change in the EU Disaster Risk Resilience
+            and CBRN-E environment through standardisation. `,
+        date: '',
+        description: `
+         <p>
+            Launched on November 1st, 2022, PEERS (<a href="https://peers-project.eu" target="_blank">www.peers-project.eu</a>) aims to advance and
+            reinforce the European Union’s operational safety and security policies through the
+            development of a practitioner-driven ecosystem focused on pre-normative / standardisation
+            processes and supporting tools. The PEERS ecosystem supports the effective strengthening
+            of preparedness and response in the field of CBRN-E through the practitioner-driven Better
+            Practice Guide initiative, gamification and e-Learning support. It primarily targets assisting
+            Europe's disaster risk management for natural hazards and CBRN-E practitioners, European
+            research policymaking as well as other stakeholders including the research community and
+            national standardisation bodies.
+        </p>
+        <p>
+            Additionally, the ecosystem includes an integration capability to existing community-building
+            platforms and a gamification strategy, aimed at encouraging solid user engagement,
+            strengthening interactions activities, and furthering user training skills based on situational
+            awareness.
+        </p>
+        <p>
+            PEERS brings together an experienced, multi-disciplinary team of specialists, to work
+            together as a focused delivery team on meeting policymaker and practitioner expectations
+            over the course of the project and deliver transformational change in the CBRN-E
+            environment.
+        </p>
+        <p>
+            PEERS is funded by the European Commission’s Horizon Europe Framework Programme,
+            PracticE Ecosystem for standaRdS (PEERS) is a 36-month project that addresses the needs of
+            the Horizon-CL3-2021-DRS-01-04 call. <strong>TFC</strong> works across each work package, leading Co-
+            Creation and as deputy project leader helps each work package leader and the consortium
+            as a whole through the process of risk management engagement. TFC, creator of the Better
+            Practice Guide initiative, also moves the undertaken in line with desire for a rejuvenation of
+            interest of practitioners into both Better Practices and Standardisation.
+        </p>
+        <p>
+            The project consists of nine European partners as highlighted in the following illustration:<br>
+            <img src="../../assets/images/peerspartners.png" alt="Peers Partners">
+        </p>
+        <p>
+            <strong>TFC</strong> was also instrumental in forming the consortium, brought much fresh thinking to the
+            proposal and significantly contributed to the concept, design, development and overseeing
+            of the implementation of the proposal.
+        </p>
+        <p>
+            The PEERS Project is appearing in several publication. Example being in
+            <a href="https://www.emergency-live.com/marketplace/changing-world-and-how-project-peers-can-help/" target="_blank">Emergency Live</a>
+            (August, 2023)
+        </p>
+
+    `
     }
 ];
