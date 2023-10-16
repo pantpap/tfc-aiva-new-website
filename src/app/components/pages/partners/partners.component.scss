@@ -1,6 +1,11 @@
 .blog-img{
     text-align: center;
-    padding-top: 15px;
+    /* padding-top: 15px; */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
     a{
         img{
             width: 200px !important;
