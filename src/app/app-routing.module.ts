@@ -44,6 +44,7 @@ import {ProjectsComponent} from './components/pages/projects/projects.component'
 import {ArchiveDetailsComponent} from './components/pages/archives/archive-details/archive-details.component';
 import {PartnersComponent} from './components/pages/partners/partners.component';
 import {ProjectDetailsComponent} from "./components/pages/projects/project-details/project-details.component";
+import {SponsorshipComponent} from "./components/pages/sponsorship/sponsorship.component";
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -66,6 +67,7 @@ const routes: Routes = [
     {path: 'projects/:projectName', component: ProjectDetailsComponent},
     {path: 'partners', component: PartnersComponent},
     {path: 'contact', component: ContactComponent},
+    {path: 'sponsorship', component: SponsorshipComponent},
     // {path: 'home-two', component: HomeTwoComponent},
     // {path: 'home-three', component: HomeThreeComponent},
     // {path: 'about', component: AboutComponent},

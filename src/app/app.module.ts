@@ -50,6 +50,7 @@ import { ProjectsComponent } from './components/pages/projects/projects.componen
 import { ArchiveDetailsComponent } from './components/pages/archives/archive-details/archive-details.component';
 import { PartnersComponent } from './components/pages/partners/partners.component';
 import { ProjectDetailsComponent } from './components/pages/projects/project-details/project-details.component';
+import { SponsorshipComponent } from './components/pages/sponsorship/sponsorship.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +95,8 @@ import { ProjectDetailsComponent } from './components/pages/projects/project-det
     ProjectsComponent,
     ArchiveDetailsComponent,
     PartnersComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    SponsorshipComponent
   ],
   imports: [
     BrowserModule,
