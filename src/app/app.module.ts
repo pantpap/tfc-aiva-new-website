@@ -52,6 +52,7 @@ import { PartnersComponent } from './components/pages/partners/partners.componen
 import { ProjectDetailsComponent } from './components/pages/projects/project-details/project-details.component';
 import { SponsorshipComponent } from './components/pages/sponsorship/sponsorship.component';
 import { AlliancesComponent } from './components/pages/alliances/alliances.component';
+import { SocialMediaComponent } from './components/common/social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -98,7 +99,8 @@ import { AlliancesComponent } from './components/pages/alliances/alliances.compo
     PartnersComponent,
     ProjectDetailsComponent,
     SponsorshipComponent,
-    AlliancesComponent
+    AlliancesComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,
