@@ -67,10 +67,77 @@ export const archiveProjectsData = [
     },
     {
         name: 'nofear',
-        title: '',
+        title: 'Network Of practitioners For Emergency medical systems and cRitical care',
         date: '',
         description: `
-            <p></p>
+            <p>
+                <strong>NO-FEAR</strong> is an EU-funded project that brings together a <strong>pan-European community</strong>
+                 primarily comprising of Emergency Medical Care practitioners, suppliers, decision and policy makers
+                 collaborating to exchange knowledge, understanding best practices and lessons learnt. Members of the
+                 network, collectively, work as an entity to develop a common understanding on innovation potentiality,
+                 which includes standardisation in order to fulfil operational gaps and to pinpoint areas for future
+                 research. The undertaking involves a multi-disciplinary, multi-national and multi-sectorial collaboration
+                 and is supported by a virtual tool including the NO-FEAR platform and a series of network events,
+                 which includes workshops, demonstrations and exercises on a regular interval. The project is led by
+                 CRIMEDIM – Research Centre in Emergency and Disaster Medicine, University Del Piemonte Orientale (UPO), Italy.
+            </p>
+            <p>
+                <strong>TFC Research and Innovation Limited</strong> (@TFCRIL) works across each work package and is
+                involved in research/engagement activities, <strong>bringing much fresh-thinking</strong> to the
+                foreground. The company also leads the work being undertaken in the area of <strong>standardisation</strong>
+                 and <strong>better practices guides</strong>.
+            </p>
+            <p>
+                <strong>Emergency medical systems and critical care: what are the challenges?</strong>
+            </p>
+            <p>
+                Safety and security incidents, such as terroristic attacks, armed conflicts, and infectious diseases m
+                ay have an international, if not a global impact. Therefore, the response and management of these
+                scenarios involves the coordination of a number emergency services, medical practitioners as well
+                as first responders. Response needs can be cross-border and simultaneous.
+            </p>
+            <p>
+                Differences in organisational set ups, tools, decision-making processes, infrastructure and approach
+                can result in poor emergency medical care. For example, the fragmentation of actors responding to
+                security related incidents, lack of communication between practitioners and suppliers and lack of
+                suitable standards can lead to extended response times.
+            </p>
+            <p>
+                <strong>Improving emergency medical systems and critical care</strong>
+            </p>
+            <p>
+                How can we improve emergency medical care across organisations both between, and within countries?
+            </p>
+            <div>
+                <p>
+                    The NO-FEAR project creates a long-lasting pan-European network of practitioners, decision and policy
+                     makers, suppliers and academia to support emergency medical care by:
+                </p>
+                <ol>
+                    <li><strong>Fostering</strong> deeper understanding of unique challenges faced by each body, and pinpointing areas for future research</li>
+                    <li><strong>Developing</strong> a platform featuring a dynamic catalogue of highly relevant products, services, prototypes, projects and innovations</li>
+                    <li><strong>Hosting</strong> networking events every six months including workshops, demonstrations, and exercises</li>
+                    <li><strong>Issuing</strong> policy and regulatory recommendations for standardisation</li>
+                </ol>
+                <p>
+                    <strong>Enhancing Impact: creating an emergency medical care network and strengthening standardisation and better practices.</strong>
+                </p>
+                <p>
+                    <strong>TFC Research and Innovation</strong> operates on enhancing the project findings through its
+                    involvement in <strong>standardisation</strong>, working across each work package and closely with
+                    the Royal Netherlands Standardization Institute (NEN) in particular to advance standardisation
+                    activities and <strong>better practices</strong> that are suited to the targeted community.
+                    <strong>TFC</strong> operates in NO-FEAR to strengthen community research outcomes across each
+                    work packages with <strong>fresh-thinking</strong> and the  company helps to enhance the creation
+                     of a <strong>network</strong> that includes emergency medical services,
+                    practitioners, first responders, international and national health networks, policy makers,
+                    suppliers as well as volunteer services. TFC helps to amplify the NO-FEAR’s results,
+                    encouraging uptake of the <strong>NO-FEAR platform</strong> as well as cooperation between stakeholders,
+                     including industry and standardisation bodies, in order to help improve emergency medical
+                     services responses and create synergies with existing European, national and the sub-national
+                     networks of practitioners.
+                </p>
+            </div>
         `
     },
 ];
