@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: 'faith',
-        title: 'FAITH - AI support for post-cancer patience and consultants',
+        title: 'FAITH - AI application support for post Cancer treatment patient.',
         date: '',
         description: `
          <p>
