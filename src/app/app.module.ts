@@ -54,6 +54,7 @@ import { SponsorshipComponent } from './components/pages/sponsorship/sponsorship
 import { AlliancesComponent } from './components/pages/alliances/alliances.component';
 import { SocialMediaComponent } from './components/common/social-media/social-media.component';
 import { CareersComponent } from './components/pages/careers/careers.component';
+import { EuropolComponent } from './components/pages/news/europol/europol.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +103,8 @@ import { CareersComponent } from './components/pages/careers/careers.component';
     SponsorshipComponent,
     AlliancesComponent,
     SocialMediaComponent,
-    CareersComponent
+    CareersComponent,
+    EuropolComponent
   ],
   imports: [
     BrowserModule,

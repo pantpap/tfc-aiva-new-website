@@ -47,6 +47,7 @@ import {ProjectDetailsComponent} from "./components/pages/projects/project-detai
 import {SponsorshipComponent} from "./components/pages/sponsorship/sponsorship.component";
 import {AlliancesComponent} from "./components/pages/alliances/alliances.component";
 import {CareersComponent} from "./components/pages/careers/careers.component";
+import {EuropolComponent} from "./components/pages/news/europol/europol.component";
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -62,6 +63,7 @@ const routes: Routes = [
     {path: 'blog', component: OurBlogComponent},
     {path: 'podcasts', component: PodcastsComponent},
     {path: 'news', component: NewsComponent},
+    {path: 'news/europol', component: EuropolComponent},
     {path: 'archives', component: ArchivesComponent},
     {path: 'archives/:archiveProjectName', component: ArchiveDetailsComponent, data: {projects: false}},
     {path: 'privacy-policy', component: PrivacyPolicyComponent},
@@ -80,7 +82,7 @@ const routes: Routes = [
     // {path: 'case-studies', component: CaseStudiesComponent},
     // {path: 'case-studies-details', component: CaseStudiesDetailsComponent},
     // {path: 'blog', component: BlogComponent},
-    // {path: 'blog-details', component: BlogDetailsComponent},
+    {path: 'blog-details', component: BlogDetailsComponent},
     // {path: 'team', component: TeamComponent},
     // {path: 'pricing', component: PricingComponent},
     // {path: 'gallery', component: GalleryComponent},
