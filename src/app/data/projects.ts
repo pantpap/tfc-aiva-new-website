@@ -87,7 +87,7 @@ export const projects = [
             PracticE Ecosystem for standaRdS (PEERS) is a 36-month project that addresses the needs of
             the Horizon-CL3-2021-DRS-01-04 call. <strong>TFC</strong> works across each work package, leading Co-
             Creation and as deputy project leader helps each work package leader and the consortium
-            as a whole through the process of risk management engagement. TFC, creator of the Better
+            as a whole through the process of risk management engagement. <strong>TFC</strong>, creator of the Better
             Practice Guide initiative, also moves the undertaken in line with desire for a rejuvenation of
             interest of practitioners into both Better Practices and Standardisation.
         </p>
@@ -102,7 +102,8 @@ export const projects = [
         </p>
         <p>
             The PEERS Project is appearing in several publication. Example being in
-            <a href="https://www.emergency-live.com/marketplace/changing-world-and-how-project-peers-can-help/" target="_blank">Emergency Live</a>
+            <a href="https://www.emergency-live.com/marketplace/changing-world-and-how-project-peers-can-help/" target="_blank">
+            Emergency Live</a>
             (August, 2023)
         </p>
 
