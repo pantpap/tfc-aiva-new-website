@@ -113,6 +113,7 @@ export const projects = [
         name: 'b-prepared',
         title: `B-PREPARED – Building PREPAREDness with Collaborative Knowledge Platform, Gamification and
                 Serious Game in Virtual Reality. `,
+        image: '../../../assets/images/Bprepared.jpg',
         date: '',
         description: `
          <p>

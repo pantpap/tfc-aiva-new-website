@@ -10,11 +10,13 @@ import {ActivatedRoute} from '@angular/router';
 export class ProjectDetailsComponent implements OnInit{
     private projectsData = projects;
     projectDescription: any;
+    image: string;
     constructor(private activatedRoute: ActivatedRoute) {}
 
     ngOnInit() {
         this.activatedRoute.params.subscribe(response => {
             this.projectDescription = this.projectsData.find(project => (project.name === response.projectName));
+            this.image = this.projectDescription.image;
         });
     }
 }
