@@ -43,11 +43,11 @@ import {ArchivesComponent} from './components/pages/archives/archives.component'
 import {ProjectsComponent} from './components/pages/projects/projects.component';
 import {ArchiveDetailsComponent} from './components/pages/archives/archive-details/archive-details.component';
 import {PartnersComponent} from './components/pages/partners/partners.component';
-import {ProjectDetailsComponent} from "./components/pages/projects/project-details/project-details.component";
-import {SponsorshipComponent} from "./components/pages/sponsorship/sponsorship.component";
-import {AlliancesComponent} from "./components/pages/alliances/alliances.component";
-import {CareersComponent} from "./components/pages/careers/careers.component";
-import {EuropolComponent} from "./components/pages/news/europol/europol.component";
+import {ProjectDetailsComponent} from './components/pages/projects/project-details/project-details.component';
+import {SponsorshipComponent} from './components/pages/sponsorship/sponsorship.component';
+import {AlliancesComponent} from './components/pages/alliances/alliances.component';
+import {CareersComponent} from './components/pages/careers/careers.component';
+import {EuropolComponent} from './components/pages/news/europol/europol.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -82,7 +82,7 @@ const routes: Routes = [
     // {path: 'case-studies', component: CaseStudiesComponent},
     // {path: 'case-studies-details', component: CaseStudiesDetailsComponent},
     // {path: 'blog', component: BlogComponent},
-    {path: 'blog-details', component: BlogDetailsComponent},
+    // {path: 'blog-details', component: BlogDetailsComponent},
     // {path: 'team', component: TeamComponent},
     // {path: 'pricing', component: PricingComponent},
     // {path: 'gallery', component: GalleryComponent},

@@ -55,6 +55,7 @@ import { AlliancesComponent } from './components/pages/alliances/alliances.compo
 import { SocialMediaComponent } from './components/common/social-media/social-media.component';
 import { CareersComponent } from './components/pages/careers/careers.component';
 import { EuropolComponent } from './components/pages/news/europol/europol.component';
+import { ContactInfoComponent } from './components/common/contact-info/contact-info.component';
 
 @NgModule({
   declarations: [
@@ -104,7 +105,8 @@ import { EuropolComponent } from './components/pages/news/europol/europol.compon
     AlliancesComponent,
     SocialMediaComponent,
     CareersComponent,
-    EuropolComponent
+    EuropolComponent,
+    ContactInfoComponent
   ],
   imports: [
     BrowserModule,

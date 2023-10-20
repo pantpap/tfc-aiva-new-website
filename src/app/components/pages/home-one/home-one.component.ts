@@ -10,8 +10,6 @@ export class HomeOneComponent implements OnInit {
 
     constructor() { }
 
-    ngOnInit(): void {}
-
     teamSlides: OwlOptions = {
 		loop: true,
         margin: 20,
@@ -38,38 +36,40 @@ export class HomeOneComponent implements OnInit {
                 items: 4,
             }
         }
-    }
+    };
     clientWrap: OwlOptions = {
-		loop:true,
-		margin:30,
-		nav:false,
+		loop: true,
+		margin: 30,
+		nav: false,
 		mouseDrag: true,
-		items:1,
+		items: 1,
 		dots: false,
 		autoHeight: true,
 		autoplay: true,
 		smartSpeed: 800,
 		autoplayHoverPause: true,
 		center: false,
-		responsive:{
-			0:{
-				items:1,
+		responsive: {
+			0: {
+				items: 1,
 				margin: 10,
 			},
-			576:{
-				items:1,
+			576: {
+				items: 1,
 			},
-			768:{
-				items:2,
+			768: {
+				items: 2,
 				margin: 20,
 			},
-			992:{
-				items:2,
+			992: {
+				items: 2,
 			},
-			1200:{
-				items:2,
+			1200: {
+				items: 2,
 			}
 		}
-    }
+    };
+
+    ngOnInit(): void {}
 
 }
