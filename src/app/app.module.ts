@@ -56,6 +56,7 @@ import { SocialMediaComponent } from './components/common/social-media/social-me
 import { CareersComponent } from './components/pages/careers/careers.component';
 import { EuropolComponent } from './components/pages/news/europol/europol.component';
 import { ContactInfoComponent } from './components/common/contact-info/contact-info.component';
+import { JoinPeersGroupComponent } from './components/pages/news/join-peers-group/join-peers-group.component';
 
 @NgModule({
   declarations: [
@@ -106,7 +107,8 @@ import { ContactInfoComponent } from './components/common/contact-info/contact-i
     SocialMediaComponent,
     CareersComponent,
     EuropolComponent,
-    ContactInfoComponent
+    ContactInfoComponent,
+    JoinPeersGroupComponent
   ],
   imports: [
     BrowserModule,
