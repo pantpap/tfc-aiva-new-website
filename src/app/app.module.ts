@@ -57,6 +57,9 @@ import { CareersComponent } from './components/pages/careers/careers.component';
 import { EuropolComponent } from './components/pages/news/europol/europol.component';
 import { ContactInfoComponent } from './components/common/contact-info/contact-info.component';
 import { JoinPeersGroupComponent } from './components/pages/news/join-peers-group/join-peers-group.component';
+import {HttpClientModule} from "@angular/common/http";
+import {NgOptimizedImage} from "@angular/common";
+import { BannerComponent } from './components/common/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -108,18 +111,21 @@ import { JoinPeersGroupComponent } from './components/pages/news/join-peers-grou
     CareersComponent,
     EuropolComponent,
     ContactInfoComponent,
-    JoinPeersGroupComponent
+    JoinPeersGroupComponent,
+    BannerComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    AccordionModule,
-    CarouselModule,
-    BrowserAnimationsModule,
-    TabsModule,
-    NgxScrollTopModule,
-    StickyNavModule
-  ],
+    imports: [
+        BrowserModule,
+        HttpClientModule,
+        AppRoutingModule,
+        AccordionModule,
+        CarouselModule,
+        BrowserAnimationsModule,
+        TabsModule,
+        NgxScrollTopModule,
+        StickyNavModule,
+        NgOptimizedImage
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
