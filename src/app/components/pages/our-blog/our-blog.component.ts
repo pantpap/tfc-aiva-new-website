@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./our-blog.component.scss']
 })
 export class OurBlogComponent {
+  // TODO create an array to hold these data. The display order here is ok
 
 }
