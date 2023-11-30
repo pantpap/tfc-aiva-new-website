@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./partners.component.scss']
 })
 export class PartnersComponent {
+  //  TODO create an array to hold the image of the partners
 
 }
